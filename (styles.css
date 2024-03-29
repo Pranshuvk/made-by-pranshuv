@@ -1,0 +1,63 @@
+/* Your existing CSS styles */
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button, #dateForm button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buttons button:hover, #dateForm button:hover {
+    transform: scale(1.05);
+}
+
+#yesBtn {
+    background-color: #feda6a;
+    color: #333;
+}
+
+#yesBtn:hover {
+    background-color: #fbd460;
+}
+
+#noBtn {
+    background-color: #f44336;
+}
+
+#noBtn:hover {
+    background-color: #d32f2f;
+}
+
+.highlight {
+    color: #feda6a;
+}
